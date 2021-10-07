@@ -27,6 +27,17 @@ Nombre de salariés:  	211 300 (2018)
       74.2% hommes
       25.8% femmes
       
+concurrents : IBM
+              Atos
+              sopra Steria
+              hp
+              orange
+ vende: service: -gère la cybersécurité des entreprise
+                 -
+ filiale: Altran (renommée Capgemini Engineering depuis 2021)(Belfort)
+ 
+ Capgemini Technology Services, 1 Avenue de la Gare, 90400 Meroux-Moval
+      
       
  sources:https://fr.wikipedia.org/wiki/Capgemini#M%C3%A9tiers_et_activit%C3%A9s
          https://www.capgemini.com/fr-fr/
