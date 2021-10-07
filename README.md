@@ -7,3 +7,9 @@ giuliana godail--fabrizio
 
 Entreprise :Capgemini
 
+Présenter l'entreprise
+Comprendre le fonctionnement
+Service rendu par l'entreprise
+Organisation de l'entrreprise
+Information stratégique
+--->site web
