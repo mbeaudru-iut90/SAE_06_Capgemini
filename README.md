@@ -15,13 +15,20 @@ Information stratégique
 --->site web
 
 Nom: Capgemini
+
 Adresse: 11 rue de Tilsitt
 75017 Paris France
+
 Date de création: 1er octobre 1967
+
 Statut juridique: société européenne à conseil d'administration
+
 Secteur d’activité: numérique (Assurance, Secteur banquaire, services publiques)
-Type d’entreprise : cabinet de conseil
-Produits, services assurés par l’entreprise: conseil des services informatiques et de la transformation numérique.
+
+Type d’entreprise : commerciale(cabinet de conseil
+Produits, services assurés par l’entreprise: conseil des services informatiques et de la transformation numérique.)
+
+
                     
 Nombre de salariés:  	211 300 (2018)
       74.2% hommes
@@ -37,6 +44,8 @@ concurrents : IBM
  filiale: Altran (renommée Capgemini Engineering depuis 2021)(Belfort)
  
  Capgemini Technology Services, 1 Avenue de la Gare, 90400 Meroux-Moval
+ 
+ mettre une crate avec tout les sites géographique sur notre site web
       
       
  sources:https://fr.wikipedia.org/wiki/Capgemini#M%C3%A9tiers_et_activit%C3%A9s
