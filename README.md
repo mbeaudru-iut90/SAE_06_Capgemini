@@ -2,7 +2,7 @@
 Beaudru Messaline
 Girard Mathéo
 Fernandes Adrien
-DESGRONTE Emmanuel
+DESGRONTE Emmanuel(a changé de groupe car on était trop nombreux)
 giuliana godail--fabrizio
 
 Entreprise :Capgemini
