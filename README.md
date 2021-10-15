@@ -1,3 +1,6 @@
+# Livrable parties Économie et Documents numérique
+[écran prototype](doc/fernandes_SAE106_C1_Capgemini.pdf)
+
 # SAE_06_Capgemini
 Groupe C1
 Beaudru Messaline
@@ -12,4 +15,5 @@ giuliana godail--fabrizio
 
 Entreprise :Capgemini
 
-![écran de prototype](doc/Ecran_prototype.jpg)
+![écran de zoning](doc/ecran_zoning.png)
+![écran de prototype](doc/ecran_prototype.jpg)
