@@ -2,7 +2,7 @@
 [Rapport Economique](doc/Fernandes_SAES106_C1_Capgemini.pdf)
 
 # SAE_06_Capgemini
-Groupe C1
+Groupe C1 [Nom du référent du groupe](mailto:adrien.fernandes@edu.univ-fcomte.fr?subject=[SAE 1.06]) 
 Beaudru Messaline
 
 Girard Mathéo
