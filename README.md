@@ -12,13 +12,4 @@ giuliana godail--fabrizio
 
 Entreprise :Capgemini
 
-Charte Graphique:
-  Tirte Principal -> midnightblue (hex:#191970), Gras.
-  Sous-Titre -> cadetblue (hex:#5f9ea0).
-  Menu -> white + hover plum (hex:#dda0dd).
-  Texte -> black. Mot important en gras.
-  Lien == Texte +  plum (hex:#dda0dd) ou rgb(170,59,127)=(hex:#aa3b7f).
-  
-  Police:
-    menu:cabin (https://fonts.google.com/specimen/Cabin?preview.size=87&query=cabin).
-    text:sans-serif.
+![écran de prototype](doc/ecran_prototype.png)
