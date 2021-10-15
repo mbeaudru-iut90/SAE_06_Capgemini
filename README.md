@@ -15,5 +15,5 @@ giuliana godail--fabrizio
 
 Entreprise :Capgemini
 
-![écran de zoning](doc/Ecran_zoning.jpg)
-![écran de prototype](doc/ecran_prototype.jpg)
+![écran de zoning](doc/Ecran_zonning.jpg)
+![écran de prototype](doc/Ecran_prototype.jpg)
