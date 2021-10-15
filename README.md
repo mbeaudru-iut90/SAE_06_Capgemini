@@ -1,5 +1,5 @@
 # Livrable parties Économie et Documents numérique
-[écran prototype](doc/fernandes_SAE106_C1_Capgemini.pdf)
+[Rapport](doc/fernandes_SAE106_C1_Capgemini.pdf)
 
 # SAE_06_Capgemini
 Groupe C1
@@ -15,5 +15,5 @@ giuliana godail--fabrizio
 
 Entreprise :Capgemini
 
-![écran de zoning](doc/ecran_zoning.png)
+![écran de zoning](doc/Ecran_zoning.jpg)
 ![écran de prototype](doc/ecran_prototype.jpg)
