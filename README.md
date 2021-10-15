@@ -12,4 +12,4 @@ giuliana godail--fabrizio
 
 Entreprise :Capgemini
 
-![écran de prototype](doc/ecran_prototype.png)
+![écran de prototype](doc/Ecran prototype.jpg)
