@@ -1,0 +1,683 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap);
+
+
+/* ***************************************************************************************************************************************************** */
+/* ********************************************************************* VERSION ORDINATEUR ************************************************************ */
+/* ***************************************************************************************************************************************************** */
+
+@media screen and (min-width: 1200px) {
+
+/* ******************************************************************** commun à tt partie ************************************************************* */
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        font-family: sans-serif;
+        margin: 0px 0px 0px 0px;
+    }
+
+    h2 {
+        color: midnightblue;
+        font-weight: bold;
+        font-size: 2.4em;
+        padding: 95px 40px 5px 60px;
+        position: relative;
+    }
+
+    h2::before {
+        background-color: midnightblue;
+        width: 40px;
+        height: 5px;
+        content: " ";
+        position: absolute;
+        bottom: 0;
+    }
+
+    h3 {
+        color: cadetblue;
+        font-weight: bold;
+        font-size: 1.8em;
+        padding: 20px 40px 10px 120px;   
+    }
+
+    .corps_de_texte {
+        padding: 0px 40px 0px 80px;
+        font-size: 1.2em;
+        line-height: 40px;
+    }
+
+    .mot_important {
+        font-weight: bold;
+        color:#441f58;
+    }
+
+    .liste {
+        font-size: 1.1em;
+        padding: 0px 120px 0px 180px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #891ac5;
+    }
+
+    a:hover {
+        color: plum;
+    }
+
+/* ***************************************************************** barre menu et header ************************************************************* */
+
+
+    header {
+        display: flex;
+        background: url('images/image_accueil.jpg') fixed;
+        background-size: cover;
+        height: 90vh;
+        width: 100%;
+    }
+
+    .barre_menu {
+        display: flex;
+        align-items: center;
+        background: linear-gradient(to right, #3f0a5c,#01356d);
+        position: fixed;
+        width: 100%;
+        height: 80px;
+        z-index: 1;
+    }
+
+    .logo_menu {
+        float: left;
+        width: 60px;
+        margin: 0px 10px 0px 10px;
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10px;
+        list-style: none;
+        width: 90%;
+    }
+
+    .navigation li {
+        list-style-type: none;
+    }
+
+    nav.navigation li a {
+        text-decoration: none;
+        color: white;
+        font-family: 'cabin';
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .navigation a:hover {
+        color: plum;
+    }
+
+    .titre_principal {
+        color: rgb(214, 211, 213);
+        position: relative;
+        font-family: sans-serif;
+        font-size: 5em;
+        text-align: left;
+        padding: 260px 0px 200px 30px;
+    }
+
+
+/* ******************************************************************* sous page accueil **************************************************************** */
+
+    .sous_page_accueil {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 50px 50px 0px 50px;
+    }
+
+/* ******************************************************************* partie entreprise *************************************************************** */
+
+.container {
+    margin-top: 50px;
+    margin-bottom: 220px;
+}
+
+#carouselExemple {
+    width: 80%;
+    margin: auto;
+    height: 50vh;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+.img_partie_entreprise {
+    display: flex;
+    float: left;
+    margin-left: 100px;
+    margin-right: 60px;
+    width: 750px;
+    height: 529.683px;
+}
+
+.troisieme_titre_entreprise {
+    margin-top: 350px;
+}
+
+.fond_case_img_entreprise {
+    margin-left: 50px;
+    margin-bottom: 10px;
+    background: rgb(211, 209, 207);
+    width: 30%;
+    align-content: center;
+    border-radius: 15px;
+}
+
+.img_partie_entreprise_proportion_gauche {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 30px;
+    height: 313px;
+}
+
+.img_partie_entreprise_proportion_droite {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 30px;
+    height: 250px;
+}
+
+.image_cote_cote_entreprise {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.texte_img_entreprise {
+    font-size: 1.0em;
+    padding: 0px 40px 0px 40px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.texte_img_entreprise_gauche {
+    margin-top: 20px;
+}
+
+.partie_monsieur {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.img_monsieur {
+    width: 200px;
+}
+
+.img_monsieur:hover {
+    transform: scale(1.30);
+}
+
+/* ******************************************************************** partie économie **************************************************************** */
+
+    #partie_economique {
+        display: block;
+    }
+
+    .img_1_partie_economique {
+        display: block;
+        float: right;
+        margin-left: auto;
+        margin-right: 100px;
+        height: 380px;
+        width: 380px;   
+    }
+
+    .img_2_partie_economique {
+        display: block;
+        height: 550px;
+        margin: 40px auto 40px auto;
+    }
+
+    .case_texte_economie {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 50px;
+    }
+
+    .texte_pour_case_economie {
+        width: 270px;
+        height: 200px;
+        background: rgb(211, 209, 207);
+        color: rgb(73, 73, 73);
+        text-align: center;
+        display: flex;
+        align-items: center;
+        border-radius: 15px;
+    }
+
+
+/* *********************************************************************** download ******************************************************************** */
+
+    .titre_download {
+        text-align: center;
+        font-size: x-large;
+    }
+
+    .download {
+        display: flex;
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        background: linear-gradient(to right, #3f0a5c,#01356d);
+        align-items: center;
+        height: 50px;
+        width: 200px;
+        border-radius: 15px;
+    }
+
+    .download:hover {
+        transform: scale(1.35);
+    }
+
+    /*  couleur download rgb(118, 206, 107), rgb(18, 119, 60) */
+
+    .image_download {
+        width: 50px;
+        height: 50px;   
+    }
+
+/* ******************************************************************* formulaire contacter ************************************************************ */
+
+    .formulaire {
+        padding: 50px;
+    }
+
+    /* ubuntu, Verdana, Arial, sans-serif -------> police du site Capgemini */
+
+    .titre_form_contact {
+        font-size: x-large;
+        color:rgb(77, 77, 78);
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+
+    label {
+        color:rgb(77, 77, 78);
+    }
+
+    form input {
+        border-radius: 10px;
+        height: 21px;
+        margin-bottom: 20px;
+    }
+
+    input::placeholder {
+        font-weight: 500;
+        text-align: center;
+    }
+
+    input:invalid  {background-color: rgb(228, 222, 222);}
+
+    .selection_votre_pays {
+        background: white;
+        border-radius: 10px;
+        height: 27px;
+        text-align: center;
+        color: gray;
+        font-weight: 500;
+    }
+
+    .selection_motif_contact {
+        background: white;
+        border-radius: 10px;
+        height: 27px;
+        text-align: center;
+        color: gray;
+        font-weight: 500;
+    }
+
+    .valider_form_contact {
+        background: #00ad57be;
+        border-radius: 10px;
+        width: 100px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .effacer_form_contact {
+        background: rgba(131, 0, 0, 0.685);
+        border-radius: 10px;
+        width: 130px;
+        color: white;
+        font-weight: bold;
+    }
+
+
+/* *********************************************************************** footer ********************************************************************** */
+
+    .fin_page {
+        padding-left: 50px;
+    }
+
+}
+
+
+
+
+
+
+
+/* ***************************************************************************************************************************************************** */
+/* ****************************************************************** VERSION SMARTPHONE *************************************************************** */
+/* ***************************************************************************************************************************************************** */
+
+@media screen and (max-width: 1200px) {
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        font-family: sans-serif;
+        margin: 0px 0px 0px 0px;
+    }
+
+    h2 {
+        color: midnightblue;
+        font-weight: bold;
+        font-size: 2em;
+        padding: 35px 40px 5px 40px;
+        position: relative;
+    }
+
+    h3 {
+        color: cadetblue;
+        font-weight: bold;
+        font-size: 1.8em;
+        padding: 20px 40px 10px 60px;   
+    }
+
+    .corps_de_texte {
+        padding: 0px 35px 0px 35px;
+        font-size: 1.2em;
+    }
+
+    .mot_important {
+        font-weight: bold;
+        color:#4f2566;
+    }
+
+    .liste {
+        font-size: 1em;
+        padding: 0px 80px 0px 80px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #891ac5;
+    }
+
+    /* ***************************************************************** barre menu et header ************************************************************* */
+    
+    header {
+        display: flex;
+        background: url('images/image_accueil.jpg') fixed;
+        background-size: cover;
+        height: 50vh;
+        width: 100%;
+    }
+
+
+    .logo_menu {
+        float: left;
+        width: 40px;
+        margin: 0px 10px 0px 10px;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+
+    .titre_principal {
+        color: rgb(214, 211, 213);
+        position: absolute;
+        font-family: sans-serif;
+        font-size: 3em;
+        text-align: left;
+        padding: 60px 0px 200px 30px;
+    }
+
+    /* ******************************************************************* sous page accueil **************************************************************** */
+    
+    .sous_page_accueil {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 50px;
+    }
+
+    .paragraphe_complementaire {
+        text-align: center;
+        width: 200px;
+    }
+
+    /* ******************************************************************* partie entreprise *************************************************************** */
+
+    .container {
+        margin-top: 50px;
+    }
+
+    #carouselExemple {
+        width: 80%;
+        margin: auto;
+        height: 50vh;
+    }
+
+    .carousel-item img {
+        width: 100%;
+        height: auto;
+    }
+
+    .img_partie_entreprise {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+        width: 400px;
+        height: 282.4976px;
+    }
+
+    .troisieme_titre_entreprise {
+        margin-top: 200px;
+    }
+
+    .fond_case_img_entreprise {
+        margin-left: 50px;
+        background: rgb(211, 209, 207);
+        width: 80%;
+        height: 30%;
+        align-content: center;
+        border-radius: 15px;
+        margin: 50px;
+    }
+
+    .img_partie_entreprise_proportion_gauche {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: auto;
+        padding-bottom: 15px;
+        height: 200px;
+    }
+
+    .img_partie_entreprise_proportion_droite {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: auto;
+        padding: 30px;
+        height: 150px;
+    }
+
+    .texte_img_entreprise {
+        font-size: 0.8em;
+        padding: 0px 40px 0px 40px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .texte_img_entreprise_gauche {
+        margin-top: 20px;
+    }
+
+    .partie_monsieur {
+        margin-left: 50px;
+    }
+
+    .img_monsieur {
+        width: auto;
+    }
+
+    /* ******************************************************************** partie économie **************************************************************** */
+    
+    #partie_economique {
+        display: block;
+    }
+
+    .img_1_partie_economique {
+        display: block;
+        float: right;
+        margin-left: 55px;
+        margin-right: 55px;
+        margin-bottom: 60px;
+        height: 300px;
+        width: 300px;   
+    }
+
+    .img_2_partie_economique {
+        display: block;
+        height: 180px;
+        margin: 40px auto 40px auto;
+    }
+
+    .case_texte_economie {
+        margin: 50px;
+    }
+
+    .texte_pour_case_economie {
+        font-size: .4em;
+        background: rgb(211, 209, 207);
+        color: rgb(73, 73, 73);
+        margin: 20px;
+        padding: 50px;
+        width: auto;
+        height: 30px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        border-radius: 15px;
+    }
+
+
+    /* *********************************************************************** download ******************************************************************** */
+    
+    .titre_download {
+        text-align: center;
+        font-size: x-large;
+    }
+    
+    .download {
+        display: flex;
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        background: linear-gradient(to right, #3f0a5c,#01356d);
+        align-items: center;
+        height: 50px;
+        width: 200px;
+        border-radius: 15px;
+    }
+
+    /*  couleur download rgb(118, 206, 107), rgb(18, 119, 60) */
+
+    .image_download {
+        width: 50px;
+        height: 50px;   
+    }
+
+    /* ******************************************************************* formulaire contacter ************************************************************ */
+    
+    .formulaire {
+        padding: 50px;
+    }
+
+    /* ubuntu, Verdana, Arial, sans-serif -------> police du site Capgemini */
+
+    .titre_form_contact {
+        font-size: x-large;
+        color:rgb(77, 77, 78);
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+
+    label {
+        color:rgb(77, 77, 78);
+    }
+
+    form input {
+        border-radius: 10px;
+        height: 21px;
+        margin-bottom: 20px;
+    }
+
+    input::placeholder {
+        font-weight: 500;
+        text-align: center;
+    }
+
+    input:invalid  {background-color: rgb(228, 222, 222);}
+
+    .selection_votre_pays {
+        background: white;
+        border-radius: 10px;
+        height: 27px;
+        text-align: center;
+        color: gray;
+        font-weight: 500;
+    }
+
+    .selection_motif_contact {
+        background: white;
+        border-radius: 10px;
+        height: 27px;
+        width: 80%;
+        text-align: center;
+        color: gray;
+        font-weight: 500;
+    }
+
+    .valider_form_contact {
+        background: #00ad57be;
+        border-radius: 10px;
+        width: 100px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .effacer_form_contact {
+        background: rgba(131, 0, 0, 0.685);
+        border-radius: 10px;
+        width: 130px;
+        color: white;
+        font-weight: bold;
+    }
+
+    
+}

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Capgemini</title>
+    <link rel="icon" href="data:image/jpeg;base64,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">
+    
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style_css_site_web.css">
+</head>
+
+<body>
+
+<!-- ______________________________________________________________________ barre menu et header ______________________________________________________________________ -->
+    <header>
+        <div class="barre_menu">
+            <img src="images/logo.png" alt="Logo du site" class="logo_menu">
+            <nav class="navigation">
+                <ul class="navigation">
+                    <li>
+                        <a href="#">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="#partie_entreprise">Entreprise</a>
+                    </li>
+                    <li>
+                        <a href="#partie_economique">Économie</a>
+                    </li>
+                    <li>
+                        <a href="#partie_ecologique">Écologie</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <h1 class="titre_principal">Capgemini, leader mondial<br>des cabinets de conseils </h1>
+    </header>
+
+
+<!-- ______________________________________________________________________ sous page accueil ______________________________________________________________________ -->
+
+    <div class="sous_page_accueil">
+        <p class="corps_de_texte">Sur ce site vous trouverez des informations concernant Capgemini. C'est un cabinet de conseil dont le secteur d'activité est le numérique, 
+            c'est à dire qu'il vend des services à des entreprises en leur louant des spécialistes destinés à résoudre un problème donné.
+        </p>
+    </div>
+
+<!-- ______________________________________________________________________ partie entreprise ______________________________________________________________________ -->
+
+    <div id="partie_entreprise">
+
+        <h2>Présentation de la société</h2>
+        <h3>Histoire et évolution</h3>
+
+        <!-- ______________________________________________________________________ carrousel ______________________________________________________________________ -->
+
+        <div class="container">
+            <div id="carouselExemple" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+        
+                    <div class="carousel-item active">
+                        <img src="images/partie_entreprise/Histoire1.png" alt="Frise1"
+                            class="d-block">
+                    </div>
+        
+                    <div class="carousel-item">
+                        <img src="images/partie_entreprise/Histoire2.png" alt="Frise2"
+                            class="d-block">
+                    </div>
+        
+                </div>
+        
+                <a href="#carouselExemple" class="carousel-control-prev" role="button" data-slide="prev" style="filter: invert(100%);">
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a href="#carouselExemple" class="carousel-control-next" role="button" data-slide="next" style="filter: invert(100%);">
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+        
+            </div>
+        </div>
+
+
+        <!-- ____________________________________________________________________________________________________________________________________________ -->
+
+        <h3>Implantations</h3>
+
+        <br>
+
+        <img src="images/partie_entreprise/Implantations.png" alt="image implantation de Capgemini" class="img_partie_entreprise">
+
+        <p class="corps_de_texte texte_entreprise_implantations">Capgemini s’implante dans le monde au fur et à mesure que les années passent. Elle cherche non seulement à innover mais aussi évoluer sa perspective aux yeux du monde. 
+            <br>Nous pouvons y apercevoir l’influence mondiale de Capgemini à travers sa
+            présence dans plus de 50 pays de plus nous remarquons les 16 centres d'innovations dont la présence continue d'évoluer au fil des années.</p>
+
+        
+        
+        <h3 class="troisieme_titre_entreprise">Organisation de Capgemini</h3>
+        <p class="corps_de_texte">
+            Pour répondre aux besoins de ces nombreux clients, Capgemini comptait dans ses rangs plus de 270 000 collaborateurs en 2020 dans plus de 50 pays. 
+            <br>
+            L’entreprise est très engagée dans la mixité homme/femmes.</p>
+
+            <div class="image_cote_cote_entreprise">
+
+                <div class="fond_case_img_entreprise shadow-lg">
+                    <p class="texte_img_entreprise texte_img_entreprise_gauche">Proportion hommes-femmes dans l'entreprise</p>
+                    <img src="images/partie_entreprise/Proportions.png" alt="proportion hommes femmes" class="img_partie_entreprise_proportion_gauche">
+                </div>
+
+                <div class="fond_case_img_entreprise shadow-lg">
+                    <img src="images/partie_entreprise/EDGE.png" alt="certification EDGE" class="img_partie_entreprise_proportion_droite">
+                    <p class="texte_img_entreprise">Standard international mesurant et évaluant les engagements des entreprises en matière d’égalité professionnelle hommes-femmes.</p>
+                </div>
+
+            </div>
+
+            <br>
+
+            <p class="corps_de_texte">Pour agrandir ses équipes, Capgemini invente le concept de l’École By Capgemini. C’est un programme accessible aux jeunes diplômés bac +5 qui désirent parfaire leur formation ainsi qu’à des personnes expérimentées qui cherchent à booster leur carrières et saisir des opportunités. 
+                Chacune des filières proposées dans ce programme est conçue avec des écoles renommées et des partenaires technologiques leaders du marché. Suite à cette formation, ils peuvent intégrer l’entreprise en tant que consultant</p>
+
+            <br>
+
+            <p class="corps_de_texte">Capgemini est dirigé par un conseil administration notamment composé de :</p>
+
+            <div class="partie_monsieur">
+                <a href="https://www.capgemini.com/fr-fr/ressources/biographie-paul-hermelin/"><img src="images/partie_entreprise/HERMELIN.png" alt="Paul HERMELIN image" class="img_monsieur" ></a>
+                <p><span class="mot_important">Paul HERMELIN</span> <br> Président du conseil</p>
+                <a href="https://www.capgemini.com/fr-fr/ressources/biographie-daniel-bernard/"><img src="images/partie_entreprise/DANIEL.png" alt="Daniel BERNARD image" class="img_monsieur" ></a>
+                <p><span class="mot_important">Daniel BERNARD</span> <br> Directeur général et administrateur</p>
+                <a href="https://www.capgemini.com/fr-fr/ressources/biographie-aiman-ezzat/"><img src="images/partie_entreprise/AIMAN.png" alt="Aiman EZZAT image" class="img_monsieur" ></a>
+                <p><span class="mot_important">Aiman EZZAT</span> <br> Vice président du conseil d’administration</p>
+            </div>
+        
+        </div>
+
+<!-- ______________________________________________________________________ partie economique ______________________________________________________________________ -->
+
+    <div id="partie_economique">
+
+        <h2>Capgemini, une entreprise en plein essor</h2>
+        <h3>Capgemini un cabinet de conseil, pour quelles entreprises et quels secteurs?</h3>
+
+        <p class="corps_de_texte">Capgemini est une <span class="mot_important">entreprise non financière</span> c’est à dire qu’elle produit des services marchands et donc que sa recette dépend de la vente de ces services. 
+            Une société non financière interagit avec une grande partie d’autres organes de l’économie comme on le voit sur le schéma ci-contre.</p>
+        
+        <img src="images/partie_economique/circuit_economique.png" alt="schéma circuit économique" class="img_1_partie_economique">
+        
+        <p class="corps_de_texte">Les ménages représentent les foyers, les sociétés financières sont par exemple des banques ou des assurances, 
+            quant aux administrations, il s'agit des institutions de l'État (mairies, école publiques, ...)
+        </p>
+
+        <p class="corps_de_texte">Capgemini touche des secteurs variés tel que: </p>
+        
+        <ul class="liste">
+            <li>aéronautique;</li>
+            <li>automobile</li>
+            <li>assurances</li>
+            <li>énergies et utilities</li>
+            <li>grande consommation et distribution</li>
+            <li>high tech</li>
+            <li>espace et navigation aérienne</li>
+            <li>services citoyens</li>
+        </ul>
+
+        <br>
+
+        <h3>Chiffre d’affaires et aspect financier</h3>
+
+        <p class="corps_de_texte">Capgemini est l’entreprise du service numérique qui a le plus gros chiffre d’affaire du pays, et se classe dixième cabinet de conseil au monde.
+            En 2020, son chiffre d’affaires s’élevait à <span class="mot_important">15,8 milliard</span> d’euros. 
+            <br>Ci-joint se trouve la répartition du chiffre d’affaire selon la région, le secteur ou le métier :</p>
+        <img src="images/partie_economique/chiffre_affaire.jpg" alt="chiffre d'affaire de Capgemini" class="background_img_2_partie_economique img_2_partie_economique shadow-lg">
+        <br>
+        <p class="corps_de_texte">De plus, Capgemini appartient au <span class="mot_important">CAC 40</span> cela signifie qu’elle est côté en bourse, 
+            que sa valeur évolue constamment et qu’elle fait partie des 40 entreprises les plus importantes de France.</p>
+
+        <h3>Partenariat et concurrence</h3>
+
+        <div class="case_texte_economie">
+            <p class="texte_pour_case_economie shadow-lg">Microsoft: multinationale informatique spécialisé dans les systèmes d’exploitation</p>
+            <p class="texte_pour_case_economie shadow-lg">Intel, leader des microprocesseurs</p>
+            <p class="texte_pour_case_economie shadow-lg">Google Cloud qui est une plateforme de stockages de données sur un espaces non physique</p>
+            <p class="texte_pour_case_economie shadow-lg">IBM, constructeur d’ordinateurs</p>
+        </div>
+
+        <p class="corps_de_texte">D’autre part, Capgemini a racheté de nombreuses entreprises qui sont désormais des filiales du groupe. On cite en autre : VariQ ,Empired et Altran.
+            <br>
+            <br>
+            Bien que Capgemini ait de nombreux alliés et domine le marché, la concurrence est à l'appel.
+            En 2020, Capgemini se positionne numéro un en France avec le plus haut chiffre d'affaire. Pour autant elle est suivie de près par Sopra Steria, IBM, ATOS, Acceture, CGI, ...
+        </p>
+    </div>
+
+<!-- ______________________________________________________________________ partie ecologique ______________________________________________________________________ -->
+
+    <div id="partie_ecologique">
+
+        <h2>L’engagement d’une entreprise responsable</h2>
+
+        <h3>Des mesures écologiques</h3>
+
+        <p class="corps_de_texte">Étant l’un des leaders de son domaine d'activité,Capgemini a une image forte dans le monde de l’informatique. 
+            C’est pourquoi elle se doit de montrer l’exemple et d’influencer ce qui l’entoure pour concevoir un futur durable. L'entreprise œuvre déjà pour de multiples objectifs environnementaux définis dans l’
+            <a href="https://fr.wikipedia.org/wiki/Objectifs_de_d%C3%A9veloppement_durable">ODD des Nations Unis</a>.
+        </p>
+
+
+        <p class="corps_de_texte">Dans le but de réaliser certains objectifs, Capgemini agit:</p>
+            <ul class="liste">
+                <li>en participant au développement des solutions plus éco-responsables et plus durables comme le développement d’une voiture électrique;</li>
+                <li>en incitant les employés à utiliser des gobelets et serviettes réutilisables dans le but de diminuer les déchets.</li>
+            </ul>
+
+        <h3>Une politique sociale sans distinction</h3>
+
+        <p class="corps_de_texte">Capgemini tient à promouvoir la diversité et agit pour faire de demain un monde plus égalitaire. 
+            Elle vise à concevoir un futur inclusif et durable. Pour cela elle :</p>
+            <ul class="liste">
+                <li>recrute des collaborateurs dans tous les pays en voie de développement</li>
+                <li>offre aux indiens des formations similaires à celles des européens</li>
+                <li>crée des fronts de lutte contre le racisme dans les pays les plus concernés</li>
+                <li>augmente l’employabilité des personnes en situation de handicap</li>
+            </ul>
+
+        </div>
+
+<!-- ______________________________________________________________________ téléchager rapport ______________________________________________________________________ -->
+
+    <div id="telechargement">
+        <br>
+        <p class="titre_download">
+            Pour en savoir plus 
+            <br>télécharger notre rapport en cliquant <a href="https://raw.githubusercontent.com/mbeaudru-iut90/SAE_06_Capgemini/main/doc/Fernandes_SAES106_C1_Capgemini.pdf">ici</a>
+        </p>
+        <a href="https://raw.githubusercontent.com/mbeaudru-iut90/SAE_06_Capgemini/main/doc/Fernandes_SAES106_C1_Capgemini.pdf">
+            <img src="images/download.png" alt="image téléchargement" class="download image_download">
+        </a>
+    </div>
+
+<!-- ______________________________________________________________________nous contacter ______________________________________________________________________ -->
+    
+    <div id="formulaire_contact">
+        <form class="formulaire">
+
+            <fieldset>
+                <legend class="titre_form_contact">Nous contacter</legend>
+
+
+                <div>
+                    <label for="nom">Vôtre nom: </label>
+                    <input id="nom" placeholder="saisissez votre nom">
+                </div>
+                
+                
+                <div>
+                    <label for="prénom">Vôtre prénom: </label>
+                    <input id="prénom" placeholder="saisissez votre prénom">
+                </div>
+                
+                <div>
+                    <label for="vos_coordonnees">Vos coordonnées: </label>
+                    <input id="vos_coordonnees" pattern="[0-9]{10}" placeholder="saisisser vôtre téléphone" required>
+                    <input placeholder="saisisser vôtre adresse mail">
+                </div>
+                
+                
+                <div>
+                    <label for="pays">Vôtre pays: </label>
+                    <select class="selection_votre_pays" id="pays">
+                        <option value="1">Autres pays</option>
+                        <option value="2">France</option>
+                        <option value="3">Italie</option>
+                        <option value="4">Allemagne</option>
+                        <option value="5">Angleterre</option>
+                        <option value="6">Autriche</option>
+                        <option value="7">État-Unis</option>
+                        <option value="8">Norvège</option>
+                        <option value="9">Japon</option>
+                    </select>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="motif">Motif de votre message: </label>
+                    <select class="selection_motif_contact" id="motif">
+                        <option value="1">Autres motifs</option>
+                        <option value="2">Vous voulez des renseignements sur Capgemini</option>
+                        <option value="3">Vous avez des suggestions pour notre site</option>
+                    </select>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="votre_message">Vôtre message: </label>
+                    <br>
+                    <textarea id="votre_message" placeholder="Rédiger votre message ici: "></textarea>
+                </div>
+                <br>
+                <br>
+
+                <button class="valider_form_contact">envoyer</button>
+                <button type="reset" class="effacer_form_contact">réinitialiser</button>
+            </fieldset>
+        </form>
+    </div>
+
+    <footer class="fin_page">
+        &copy; 2021 - Capgemini
+    </footer>
+</body>
+</html>
