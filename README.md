@@ -51,10 +51,10 @@ Répartition:
   
   responsive: Adrien + Giuliana
  
-  C'est difficile d'attribuer précisément chaque partie à une personne, puisque une personne commence le code, puis quelqu'un d'autre le modifie et l'améliore derrière. Les dernières modifications ont été apportés en groupe pour unifier la page web et être sûr que cela convient à tout le monde.
-  
-  
+ 
 Validateur:
-  
+  ![Validation html](doc/W3C_html.jpg)
+  ![Validation css](doc/W3C-css.jpg)
+
   
   
