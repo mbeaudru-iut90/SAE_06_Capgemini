@@ -19,3 +19,37 @@ Entreprise :Capgemini
 
 ![écran de zoning](doc/Ecran_zoning.jpg)
 ![écran de prototype](doc/Ecran_prototype.jpg)
+
+Répartition:
+  écran de zoning: Adrien
+  prototype: Adrien + Mathéo
+  chartre graphique: Giuliana + Messaline
+  
+  menu/acceuil: Giuliana + Mathéo + Adrien + Messaline
+  Sous page d'acceuil: Giuliana + Messaline
+  
+  résumer les informations à mettre dans le site web: Mathéo + Messaline
+  
+  partie entreprise:
+            caroussel: Adrien
+            frise chronologique: Mathéo
+            Implantation: Messaline
+            Organisation de Capgemini:
+                  Conseil d'administration: Messaline
+                  Mixité Homme/femme: Mathéo
+            
+  partie économique:
+            Capgemini un cabinet de conseil, pour quelles entreprises et quels secteurs?: Adrien
+            Chiffre d’affaires et aspect financier: Giuliana
+            Partenariat et concurrence: Giuliana
+            
+  partie ecologique: Adrien
+  
+  formulaire: Giuliana
+  
+  bouton téléchargement: Giuliana
+ 
+  Les dernières modifications ont été apportés en groupe pour unifier la page web.
+  
+  
+  
