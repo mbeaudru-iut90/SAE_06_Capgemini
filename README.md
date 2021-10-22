@@ -53,8 +53,8 @@ Répartition:
  
  
 Validateur:
-  ![Validation html](doc/W3C_html.jpg)
-  ![Validation css](doc/W3C-css.jpg)
+  ![Validation html](doc/W3C_html.png)
+  ![Validation css](doc/W3C-css.png)
 
   
   
